@@ -243,14 +243,6 @@ ollama serve
 - 尝试手动分析前端 GraphQL 请求
 - 使用 `--skip-llm` 模式进行基础测试
 
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📜 许可证
-
-MIT License - 详见 [LICENSE](LICENSE) 文件
-
 ## 🛡 免责声明
 
 **本工具仅用于授权渗透测试和安全研究。请勿对未授权目标使用。**
@@ -258,12 +250,6 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 - 使用者需自行承担法律责任
 - 作者不对任何滥用行为负责
 - 请遵守当地法律法规和道德规范
-
-## 🙏 致谢
-
-- 灵感来源于 GraphQL 安全社区的研究成果
-- 感谢 [DVGA](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application) 提供的测试靶场
-- 感谢阿里云 DashScope 和 Ollama 提供的 LLM 支持
 
 ---
 
