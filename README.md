@@ -305,34 +305,6 @@ for url in $(cat targets.txt); do
 done
 ```
 
-## 🔧 故障排除
-
-### 1. `ModuleNotFoundError: No module named 'dashscope'`
-
-```bash
-pip install dashscope
-```
-
-### 2. Ollama 连接失败
-
-确保 Ollama 服务正在运行：
-
-```bash
-ollama serve
-```
-
-### 3. OAST 验证问题
-
-- 确保使用你自己的 OAST 域名（不要使用默认的 `example.oastify.com`）
-- 检查目标是否有出站网络限制
-- 等待 30-60 秒后再检查 OAST 平台
-
-### 4. 内省被禁用
-
-如果目标禁用了 Introspection，工具将无法获取 Schema。你可以：
-- 尝试手动分析前端 GraphQL 请求
-- 使用 `--skip-llm` 模式进行基础测试
-
 ## ⚠️ 注意事项
 
 ### 潜在风险
