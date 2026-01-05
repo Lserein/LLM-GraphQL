@@ -94,6 +94,10 @@ python mcp-graphql.py --url https://target.com --max-iterations 5
 python mcp-graphql.py --url https://target.com --output report.html
 ```
 
+![img](image.png)
+
+![img](image2.png)
+
 ### 5. 查看结果
 
 - 控制台会实时显示扫描进度和发现的漏洞
