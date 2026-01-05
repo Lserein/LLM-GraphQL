@@ -1,0 +1,13 @@
+# mcp-GraphQL 依赖包
+# Python 3.8+
+
+# 核心依赖
+requests>=2.31.0
+urllib3>=2.0.0
+
+# LLM API 支持 (二选一)
+dashscope>=1.14.0        # 阿里云 Qwen API
+# ollama                 # 本地 Ollama (可选)
+
+# 可选: 更好的输出格式
+colorama>=0.4.6          # Windows 颜色支持
